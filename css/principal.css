@@ -62,7 +62,7 @@ header{
     transition: color300ms;
 }
 .menu nav ul li a:hover{
-    color:  rgba(66, 241, 247, 0.897);
+    color:  rgba(61, 242, 255, 0.973);
     
 }
 .menu nav ul li a i{
@@ -102,7 +102,7 @@ header{
 
 #ctn-icon-search i{
     font-size: 18px;
-    color: #77f4fd;
+    color: rgba(61, 242, 255, 0.973);
     cursor: pointer;
     transition: all 300ms;
 }
@@ -150,7 +150,7 @@ header{
 }
 #box-search li a i{
     margin-right: 10px;
-    color: #4cfcf3;
+    color: rgba(61, 242, 255, 0.973);
 }
 #cover-ctn-search{
     width: 100%;
@@ -161,16 +161,16 @@ header{
     z-index: 7;
     display: none;
 }
-/*Boton de ir arriba*/
+/*Boton de ir hacia arriba*/
 
 #button-up{
     width: 60px;
     height: 60px;
-    background:#2febeb;
+    background:#191a1a;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: rgba(61, 242, 255, 0.973);
     border-radius: 50%;
     font-size: 20px;
     position: fixed;
@@ -185,6 +185,7 @@ header{
 #button-up:hover{
     transform: scale(1.1);
     border-color: rgba(0,0,0,0.1);
+    opacity: 0.9;
 }
 /*------------------------------------folder de pie de pagina----------------------------------------*/
 .container-fooder{
@@ -313,7 +314,7 @@ header{
         width: 20px;
         display: inline-block;
         margin-right: 10px;
-        color: #2febeb;
+        color: rgba(61, 242, 255, 0.973);
     }
     .icon-menu{
         display: flex;

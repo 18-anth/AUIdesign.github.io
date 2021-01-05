@@ -115,7 +115,7 @@ input[type="radio"]{
     font-size: 14px;
     margin: 4px;
     padding: 6px 10px;
-    background: firebrick;
+    background: rgba(177, 175, 175, 0.281);
     cursor: default;
 }
 .post button{
@@ -123,14 +123,14 @@ input[type="radio"]{
     margin-left: 20px;
     padding: 10px 50px;
     font-size: 16px;
-    background: aquamarine;
+    background: rgba(61, 242, 255, 0.973);
     color: white;
     border: none;
     cursor: pointer;
     border-radius: 4px;
 }
 .post button:hover{
-    opacity: 0.9;
+    opacity: 0.4;
 }
 /*----------------------SISTEMA DE FILTRADO-------------------*/
 [value="Todo"]:checked ~ .posts .post [data-categori]{
