@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+    background: #f9f9faf1;
+}
+header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: #ffffff;
+    box-shadow: 0 4px 25px -22px black;
+    z-index: 10;
+}
+.header-content{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.logo{
+    height: 80px;
+    justify-content:center;
+    align-items: center;
+    display: flex;
+}
+.logo h2 b{
+    color: rgba(61, 242, 255, 0.973);
+}
+.menu{
+    height: 80px;
+}
+.menu nav{
+    height: 100%;
+}
+.menu nav ul{
+    height: 100%;
+    display: flex;
+    list-style: none;
+}
+.menu nav ul li{
+    height: 100%;
+    margin: 0px 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.menu nav ul li a{
+    color:  rgba(0, 0, 0, 0.973);
+    font-size: 18px;
+    transition: color300ms;
+}
+.menu nav ul li a:hover{
+    color:  rgba(66, 241, 247, 0.897);
+    
+}
+.menu nav ul li a i{
+    display: none;
+}
+
+#icon-menu{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 20px;
+    top: 16px;
+    padding: 10px;
+    font-size: 20px;
+    background: rgba(48, 47, 47, 0.158);
+    border-radius: 100%;
+    color: rgba(117, 116, 116, 0.541);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+#icon-menu .fa-bars:hover{
+    opacity: 0.8;
+}
+/*Buscador de contenido*/
+
+#ctn-icon-search{
+    position: absolute;
+    right: 20px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ctn-icon-search i{
+    font-size: 18px;
+    color: #77f4fd;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+#ctn-icon-search i:hover{
+    color: #5e5858ef;
+}
+#ctn-bars-search{
+    position: fixed;
+    top: -10px;
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+    z-index: 9;
+    transition: all 600ms;
+}
+
+#ctn-bars-search input{
+    display: block;
+    width: 1200px;
+    margin: auto;
+    padding: 10px;
+    font-size: 18px;
+    outline: 0;
+}
+#box-search{
+    position: fixed;
+    top: 165px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1200px;
+    background: #fff;
+    z-index: 8;
+    overflow: hidden;
+    display: none;
+}
+#box-search li a{
+    display: block;
+    width: 1200px;
+    color: #777777;
+    padding: 12px 20px;
+}
+#box-search li a:hover{
+    background: #f3f3f3;
+}
+#box-search li a i{
+    margin-right: 10px;
+    color: #4cfcf3;
+}
+#cover-ctn-search{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 7;
+    display: none;
+}
+/*Boton de ir arriba*/
+
+#button-up{
+    width: 60px;
+    height: 60px;
+    background:#2febeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+    border: 4px solid transparent;
+    transition: all 300ms ease;
+    transform: scale(0);
+}
+
+#button-up:hover{
+    transform: scale(1.1);
+    border-color: rgba(0,0,0,0.1);
+}
+/*------------------------------------folder de pie de pagina----------------------------------------*/
+.container-fooder{
+    width: 100%;
+    padding: 40px;
+    background: #fff;
+    margin-top: 40px;
+}
+.container-fooder footer{
+    max-width: 1200px;
+    margin: auto;
+}
+.container-fooder footer .logo-fooder{
+    text-align: center;
+}
+.container-fooder footer .logo-fooder img{
+    width: 100px;
+    
+}
+.container-fooder footer .redes-fooder{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.container-fooder footer .redes-fooder .icon-redes-fooder{
+    font-size: 20px;
+    margin: 20px;
+    background: #ffffff67;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: rgba(18, 18, 19, 0.212);
+}  
+.container-fooder footer .redes-fooder .fa-facebook-f:hover{
+    background: #41579a;
+    color: #ffffff;
+}
+.container-fooder footer .redes-fooder .fa-google-plus-g:hover{
+    background: #ca183f;
+    color: #ffffff;
+}
+.container-fooder footer .redes-fooder .fa-instagram:hover{
+    background: linear-gradient(to top right, #fcde30 ,#e9712a,#d23138,#ae4198,#7548a1,#5443a8 );
+    color: #ffffff;
+}
+.container-fooder footer .redes-fooder .fa-whatsapp:hover{
+    background: #3eb34e;
+    color: #ffffff;
+}
+.container-fooder hr{
+    margin-top: 20px;
+    border: none;
+    height: 2px;
+    background: #0f0c0c80;
+}
+.container-fooder h4{
+    text-align:center;
+    margin-top: 40px;
+    color: #0201016c;
+    font-weight: 500;
+}
+
+/*=? =========== Tamaño para los dispositivos =============*/
+@media screen and (max-width:1220px){
+    .header-content, 
+    .container-fooder footer{
+        max-width: 1000px;
+        padding: 0 20px;
+    } 
+    #ctn-bars-search,
+    #ctn-bars-search input,
+    #box-search{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px){
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .container-all{
+        transition: all 300ms cubic-bezier(1,0,0,1);
+    }
+
+    .move-container-all{
+        transform: translateX(300px);
+    }
+    
+    .menu{
+        width: 0px;
+        height: 100vh;
+        position: fixed;
+        top: 80px;
+        left: 0;
+        background: rgb(247, 245, 245);
+        overflow: hidden;
+        transform: translateX(-350px);
+        box-shadow: 10px 0 20px -25px black;
+        transition: all 300ms cubic-bezier(1,0,0,1);
+    }
+    .show-lateral{
+        width: 300px;
+        transform: translateX(0px);
+    }
+    .menu nav ul {
+        flex-direction: column;
+    }
+    .menu nav ul li{
+        max-width: 200px;
+        height: 50px;
+        justify-content: flex-start;
+    }
+    .menu-selected:before{
+        width: 0;
+    }
+    .menu nav ul li a{
+        margin-top: 40px;
+        color: #030303;
+    }
+    .menu nav ul li a i{
+        width: 20px;
+        display: inline-block;
+        margin-right: 10px;
+        color: #2febeb;
+    }
+    .icon-menu{
+        display: flex;
+        right: 60px;
+    }
+    .container-aside{
+        flex-wrap: wrap;
+    }
+}
