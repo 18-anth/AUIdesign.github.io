@@ -93,6 +93,7 @@ article img{
 }
 .container-aside aside img{
     width: 100%;
+    margin-top: 20px;
 }
 .container-aside aside h4,
 .container-aside aside p{
@@ -104,14 +105,14 @@ article img{
         margin-left: 20px;
         padding: 10px 50px;
         font-size: 16px;
-        background:rgba(61, 242, 255, 0.973);
+        background:rgba(0, 0, 0, 0.342);
         border: none;
-        color: #ffffff;
+        color: rgba(61, 242, 255, 0.973);
         cursor: pointer;
         border-radius: 6px;
 }
 .container-aside aside button:hover{
-    opacity: 0.9;
+    opacity: 0.4;
 }
 /*----------------------------todos lod dispositivos------------------------*/
 @media screen and (max-width: 1020px){
