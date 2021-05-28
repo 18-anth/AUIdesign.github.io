@@ -7,6 +7,22 @@
     text-decoration: none;
     font-family: 'Source Sans Pro', sans-serif;
 }
+
+*{
+	scrollbar-width: rhin;
+	scrollbar-color: hsla(0, 0%, 60.8%, 0.5) transparent;
+  }
+  ::-webkit-scrollbar {
+	width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+	background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+	background-color: rgb(253, 34, 34);
+	border-radius: 20px;
+	border: transparent;
+  }
 body{
     background: #f9f9faf1;
 }
