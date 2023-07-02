@@ -1,6 +1,6 @@
 # Arquitect.github.io
 
-Link de la Paguina:  https://coddinghappy.github.io/AUIdesign.github.io/
+Link de la Paguina:  https://18-anth.github.io/AUIdesign.github.io/
 
 Creación de pagína web utlizando html, css y javascript. 
 Está basado en la codificacion para mostrar al publico los diseños y fachadas realizadas por el arquitecto.
